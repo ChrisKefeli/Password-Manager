@@ -664,8 +664,8 @@ public class PasswordManager {
 
         //local user credentials to access sql database on machine
         String dbName = "passwords";
-        String db_username = "root";
-        String db_password = "Flower pen sky9";
+        String db_username = ""; //CHANGE THIS TO YOUR MySQL USERNAME
+        String db_password = ""; //CHANGE THIS TO YOUR MySQL PASSWORD
 
         //Gets driver
         Class.forName("com.mysql.cj.jdbc.Driver");

@@ -1,0 +1,27 @@
+Code to run in MySQL command line:
+
+CREATE DATABASE passwords;
+
+USE passwords;
+
+CREATE TABLE data(
+Id int primary key,
+Website varchar(150),
+Username varchar(150),
+Password varchar(50),
+Notes varchar(400),
+);
+
+CREATE TABLE master(
+password varchar(25)
+);
+
+//Here is where you create your master password for the database
+
+INSERT INTO master
+("Masterkey");
+
+//Example code to add to the password database:
+
+insert into password
+(1, "mail.google.com", "test@gmail.com", "Password", "Account for gmail");

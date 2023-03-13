@@ -663,9 +663,9 @@ public class PasswordManager {
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
 
         //local user credentials to access sql database on machine
-        String dbName = "passwords";
-        String db_username = "root";
-        String db_password = "Flower pen sky9";
+        String dbName = "passwords";   
+        String db_username = "";    //CHANGE THIS TO YOUR OWN MySQL USERNAME
+        String db_password = ""; //CHANGE THIS TO YOUR OWN MySQL PASSWORD
 
         //Gets driver
         Class.forName("com.mysql.cj.jdbc.Driver");

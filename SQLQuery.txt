@@ -1,4 +1,4 @@
-Code to run in MySQL command line:
+//Code to run in MySQL command line:
 
 CREATE DATABASE passwords;
 

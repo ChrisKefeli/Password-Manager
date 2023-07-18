@@ -13,7 +13,7 @@ Using this is arguably the same or more cumbersome than storing your passwords i
 
 ## Prerequisites 
 This project requires the installation of MySQL on your local machine and the creation of a MySQL database so that it can store the passwords.
-
+Please read `SQLQuery.txt` and follow the instructions to make the database
 
 ## To-do
 - [ ] Flesh out the readme

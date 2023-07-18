@@ -1,5 +1,8 @@
 # Password Manager
-This is a password manager created using Java and MySQL.
+
+### What does this do?
+This is a simple password manager created using Java to create GUI and interact with a MySQL database that stores the information.
+It will allow you to store user account data such as username, password, website and any other associated notes that you may add.
 
 # **WARNING PLEASE READ**
 This side project was just created for fun and to test my skills.
